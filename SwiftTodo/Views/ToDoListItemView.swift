@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ToDoListItemView: View {
-    @StateObject var todoViewModel = ToDoListItemViewViewModel()
+    @StateObject var todoViewModel = ToDoListItemViewModel()
     let item : ToDoListItem
     var body: some View {
         HStack {

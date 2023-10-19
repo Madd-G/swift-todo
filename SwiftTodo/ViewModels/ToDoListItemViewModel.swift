@@ -1,5 +1,5 @@
 //
-//  ToDoListItemViewViewModel.swift
+//  ToDoListItemViewModel.swift
 //  SwiftTodo
 //
 //  Created by Akhmad Nur Alamsyah on 18/10/23.
@@ -10,7 +10,7 @@ import FirebaseAuth
 import FirebaseFirestore
 
 /// ViewModel for single to do list item view (each row in items list)
-class ToDoListItemViewViewModel: ObservableObject {
+class ToDoListItemViewModel: ObservableObject {
     init() {}
     
     func toggleIsDone(item: ToDoListItem) {

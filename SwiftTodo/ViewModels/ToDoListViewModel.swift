@@ -1,5 +1,5 @@
 //
-//  ToDoListViewViewModel.swift
+//  ToDoListViewModel.swift
 //  SwiftTodo
 //
 //  Created by Akhmad Nur Alamsyah on 18/10/23.
@@ -10,7 +10,7 @@ import FirebaseFirestore
 
 /// ViewModel for list of items view
 /// Primary tab
-class ToDoListViewViewModel: ObservableObject {
+class ToDoListViewModel: ObservableObject {
     @Published var showingNewItemView = false
     
     private let userId: String

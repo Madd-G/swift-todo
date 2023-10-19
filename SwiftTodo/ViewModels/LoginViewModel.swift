@@ -1,5 +1,5 @@
 //
-//  LoginViewViewModel.swift
+//  LoginViewModel.swift
 //  SwiftTodo
 //
 //  Created by Akhmad Nur Alamsyah on 18/10/23.
@@ -8,7 +8,7 @@
 import FirebaseAuth
 import Foundation
 
-class LoginViewViewModel : ObservableObject {
+class LoginViewModel : ObservableObject {
     @Published var email = ""
     @Published var password = ""
     @Published var errorMessage = ""

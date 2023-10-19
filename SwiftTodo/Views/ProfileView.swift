@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @StateObject var profileViewModel = ProfileViewViewModel()
+    @StateObject var profileViewModel = ProfileViewModel()
 
     var body: some View {
         NavigationView {

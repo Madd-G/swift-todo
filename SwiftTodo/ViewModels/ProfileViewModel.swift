@@ -1,5 +1,5 @@
 //
-//  ProfileViewViewModel.swift
+//  ProfileViewModel.swift
 //  SwiftTodo
 //
 //  Created by Akhmad Nur Alamsyah on 18/10/23.
@@ -9,7 +9,7 @@ import Foundation
 import FirebaseAuth
 import FirebaseFirestore
 
-class ProfileViewViewModel: ObservableObject {
+class ProfileViewModel: ObservableObject {
     init() {}
     
     @Published var user: User? = nil

@@ -9,14 +9,14 @@ import SwiftUI
 import FirebaseFirestoreSwift
 
 struct ToDoListView: View {
-    @StateObject var toDoListViewModel : ToDoListViewViewModel
+    @StateObject var toDoListViewModel : ToDoListViewModel
     @FirestoreQuery var items: [ToDoListItem]
     
     init(userId: String) {
         // users/<id>/todos/<entries>
         self._items = FirestoreQuery(collectionPath: "users/\(userId)/todos")
         self._toDoListViewModel = StateObject(
-            wrappedValue: ToDoListViewViewModel(userId: userId))
+            wrappedValue: ToDoListViewModel(userId: userId))
     }
     var body: some View {
         NavigationView {

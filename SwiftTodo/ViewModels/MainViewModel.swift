@@ -1,5 +1,5 @@
 //
-//  MainViewViewModel.swift
+//  MainViewModel.swift
 //  SwiftTodo
 //
 //  Created by Akhmad Nur Alamsyah on 18/10/23.
@@ -8,7 +8,7 @@
 import FirebaseAuth
 import Foundation
 
-class MainViewViewModel: ObservableObject {
+class MainViewModel: ObservableObject {
     @Published var currentuserId: String = ""
     private var handler: AuthStateDidChangeListenerHandle?
     

@@ -1,5 +1,5 @@
 //
-//  RegisterViewViewModel.swift
+//  RegisterViewModel.swift
 //  SwiftTodo
 //
 //  Created by Akhmad Nur Alamsyah on 18/10/23.
@@ -9,7 +9,7 @@ import Foundation
 import FirebaseAuth
 import FirebaseFirestore
 
-class RegisterViewViewModel: ObservableObject {
+class RegisterViewModel: ObservableObject {
     @Published var name = ""
     @Published var email = ""
     @Published var password = ""
