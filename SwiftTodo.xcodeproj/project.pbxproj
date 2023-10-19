@@ -20,7 +20,7 @@
 		4E904A212ADFA6D600B045AC /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E904A202ADFA6D600B045AC /* RegisterViewViewModel.swift */; };
 		4E904A232ADFA6FD00B045AC /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E904A222ADFA6FD00B045AC /* ToDoListItemViewViewModel.swift */; };
 		4E904A252ADFAAD300B045AC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E904A242ADFAAD300B045AC /* HeaderView.swift */; };
-		4EB55F482ADFE7DB00A424D3 /* LogRegButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB55F472ADFE7DB00A424D3 /* LogRegButton.swift */; };
+		4EB55F482ADFE7DB00A424D3 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB55F472ADFE7DB00A424D3 /* MyButton.swift */; };
 		4ECBE0DE2ADF9EFB00D9B38D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBE0DD2ADF9EFB00D9B38D /* ProfileView.swift */; };
 		4ECBE0E02ADF9F0E00D9B38D /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBE0DF2ADF9F0E00D9B38D /* ToDoListView.swift */; };
 		4ECBE0E22ADF9FFE00D9B38D /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBE0E12ADF9FFE00D9B38D /* NewItemView.swift */; };
@@ -66,7 +66,7 @@
 		4E904A202ADFA6D600B045AC /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		4E904A222ADFA6FD00B045AC /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		4E904A242ADFAAD300B045AC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		4EB55F472ADFE7DB00A424D3 /* LogRegButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRegButton.swift; sourceTree = "<group>"; };
+		4EB55F472ADFE7DB00A424D3 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		4ECBE0DD2ADF9EFB00D9B38D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4ECBE0DF2ADF9F0E00D9B38D /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		4ECBE0E12ADF9FFE00D9B38D /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				4ECBE0E52ADFA02200D9B38D /* RegisterView.swift */,
 				4ECBE0E72ADFA08600D9B38D /* ToDoListItemView.swift */,
 				4E904A242ADFAAD300B045AC /* HeaderView.swift */,
-				4EB55F472ADFE7DB00A424D3 /* LogRegButton.swift */,
+				4EB55F472ADFE7DB00A424D3 /* MyButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,10 +168,10 @@
 			children = (
 				4ECBE0ED2ADFA0DA00D9B38D /* MainViewViewModel.swift */,
 				4ECBE0EF2ADFA0EA00D9B38D /* ProfileViewViewModel.swift */,
-				4ECBE0F12ADFA0FB00D9B38D /* ToDoListViewViewModel.swift */,
 				4E904A1C2ADFA6B200B045AC /* NewItemViewViewModel.swift */,
 				4E904A1E2ADFA6C900B045AC /* LoginViewViewModel.swift */,
 				4E904A202ADFA6D600B045AC /* RegisterViewViewModel.swift */,
+				4ECBE0F12ADFA0FB00D9B38D /* ToDoListViewViewModel.swift */,
 				4E904A222ADFA6FD00B045AC /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
@@ -338,7 +338,7 @@
 			files = (
 				4ECBE0E42ADFA01100D9B38D /* LoginView.swift in Sources */,
 				4E904A252ADFAAD300B045AC /* HeaderView.swift in Sources */,
-				4EB55F482ADFE7DB00A424D3 /* LogRegButton.swift in Sources */,
+				4EB55F482ADFE7DB00A424D3 /* MyButton.swift in Sources */,
 				4E75892E2ADF913E001A773C /* MainView.swift in Sources */,
 				4E904A212ADFA6D600B045AC /* RegisterViewViewModel.swift in Sources */,
 				4ECBE0EE2ADFA0DA00D9B38D /* MainViewViewModel.swift in Sources */,

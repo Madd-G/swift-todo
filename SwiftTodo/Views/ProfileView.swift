@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @StateObject var profileViewModel = ProfileViewViewModel()
+
     var body: some View {
-        Text("Profile View")
+        NavigationView {
+            VStack {
+                
+            }
+            .navigationTitle("Profile")
+        }
     }
 }
 

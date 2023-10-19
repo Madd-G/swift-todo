@@ -30,8 +30,9 @@ struct RegisterView: View {
                         .textFieldStyle(DefaultTextFieldStyle())
                         .padding(.bottom, 10)
                     
-                    LogRegButton(
+                    MyButton(
                         title: "Create Account",
+                        backgroundColor: .pink,
                         textColor: .white,
                         action: {
                             registerViewModel.register()

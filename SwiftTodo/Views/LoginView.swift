@@ -34,9 +34,10 @@ struct LoginView: View {
                         .textFieldStyle(DefaultTextFieldStyle())
                         .padding(.bottom, 10)
                     
-                    LogRegButton(
+                    MyButton(
                         title: "Login",
-                        textColor: .white, 
+                        backgroundColor: .pink,
+                        textColor: .white,
                         action: {
                             loginViewModel.login()
                     })

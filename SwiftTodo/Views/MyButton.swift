@@ -1,5 +1,5 @@
 //
-//  LogRegButton.swift
+//  MyButton.swift
 //  SwiftTodo
 //
 //  Created by Akhmad Nur Alamsyah on 18/10/23.
@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct LogRegButton: View {
+struct MyButton: View {
     
     let title : String
+    let backgroundColor : Color
     let textColor : Color
     let action: () -> Void
     
@@ -19,7 +20,7 @@ struct LogRegButton: View {
         } label: {
             ZStack{
                 RoundedRectangle(cornerRadius: 10.0)
-                    .foregroundColor(.blue)
+                    .foregroundColor(backgroundColor)
                 Text(title)
                     .foregroundColor(textColor)
                     .bold()
@@ -30,7 +31,7 @@ struct LogRegButton: View {
 }
 
 #Preview {
-    LogRegButton(title: "Title",textColor: .white) {
+    MyButton(title: "Title", backgroundColor: .black, textColor: .white) {
         // Action
     }
 }
